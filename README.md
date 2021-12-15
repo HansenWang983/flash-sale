@@ -106,6 +106,7 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysq
     `stock_count` int(11) DEFAULT NULL COMMENT 'stock count',
     `start_date` datetime DEFAULT NULL COMMENT 'sale start time',
     `end_date` datetime DEFAULT NULL COMMENT 'sale end time',
+    `original_stock` int(11) DEFAULT NULL COMMENT 'original stock',
     PRIMARY KEY (`id`)
   ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
   
@@ -113,10 +114,10 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysq
   -- ----------------------------
   -- Records of sale_goods
   -- ----------------------------
-  INSERT INTO `sale_goods` VALUES ('1', '1', '0.01', '9', '2017-12-04 21:51:23', '2017-12-31 21:51:27');
-  INSERT INTO `sale_goods` VALUES ('2', '2', '0.01', '9', '2017-12-04 21:40:14', '2017-12-31 14:00:24');
-  INSERT INTO `sale_goods` VALUES ('3', '3', '0.01', '9', '2017-12-04 21:40:14', '2017-12-31 14:00:24');
-  INSERT INTO `sale_goods` VALUES ('4', '4', '0.01', '9', '2017-12-04 21:40:14', '2017-12-31 14:00:24');
+  INSERT INTO `sale_goods` VALUES ('1', '1', '0.01', '0', '2021-12-04 21:51:23', '2021-12-31 21:51:27', '9');
+  INSERT INTO `sale_goods` VALUES ('2', '2', '0.01', '3', '2021-12-04 21:40:14', '2021-12-31 14:00:24', '9');
+  INSERT INTO `sale_goods` VALUES ('3', '3', '0.01', '4', '2021-12-04 21:40:14', '2021-12-31 14:00:24', '9');
+  INSERT INTO `sale_goods` VALUES ('4', '4', '0.01', '8', '2021-12-25 21:40:14', '2021-12-31 14:00:24', '9');
   ```
   
   ```sql
