@@ -7,7 +7,7 @@ A online shopping web application based on Spring Boot, Redis, MySQL with native
 ![](arch.jpg)
 
 - Video：click the image
--[![Watch the video](https://3.bp.blogspot.com/-aG2XImuMk6k/TwLzNKo-8nI/AAAAAAAABec/J6zmVm2G7uc/s1600/java-logo.jpg)](https://www.youtube.com/watch?v=sAzg0SmN4Mg)
+[![Watch the video](register.jpg)](https://www.youtube.com/watch?v=sAzg0SmN4Mg)
 ## Function
 - user login/register page
      ![](register.jpg)
