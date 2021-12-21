@@ -6,6 +6,16 @@ A online shopping web application based on Spring Boot, Redis, MySQL with native
 
 ![](arch.jpg)
 
+## Contributions
+
+In this project, [HansenWang](https://github.com/HansenWang983) is responsible for all the implementations of Spring Boot Service, including business logic and architecture design of application layers (MVC), MySQL database set up with Docker and connections with service, and Redis set up with Docker and connection with server. I also tested the redis cache using redis-cli to check the validation of key-value store. For display, I initialized the data with insertion sql statements. For frontend, the javascript used ajax to send requests. And Spring Boot used themyleaf to render data in html templates. 
+
+[dxue9](https://github.com/dxue9) is responsible for implementations of the html and css, including the web page design and display, and the demo video making. 
+
+[Contributions are shown in the link.](https://github.com/HansenWang983/flash-sale/graphs/contributors)
+
+
+
 - Video：click the image
 [![Watch the video](register.jpg)](https://www.youtube.com/watch?v=sAzg0SmN4Mg)
 ## Function
